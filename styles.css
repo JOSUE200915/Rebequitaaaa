@@ -1,0 +1,76 @@
+/* Paleta de colores femeninos */
+:root {
+    --rosado-suave: #fcd5ce;
+    --rosado-intenso: #f28482;
+    --blanco: #ffffff;
+    --gris-claro: #f8f9fa;
+    --negro: #333333;
+}
+
+/* Estilo general */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: var(--gris-claro);
+    color: var(--negro);
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: var(--rosado-intenso);
+    color: var(--blanco);
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+/* Contenido */
+.content {
+    padding: 20px;
+}
+
+.text-image {
+    margin-bottom: 30px;
+    padding: 15px;
+    background-color: var(--rosado-suave);
+    border: 2px solid var(--rosado-intenso);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.text-image h2 {
+    margin: 0 0 10px 0;
+    color: var(--rosado-intenso);
+    font-size: 1.5rem;
+}
+
+.text-image p {
+    margin: 0 0 15px 0;
+}
+
+/* Espacio para imágenes */
+.image-space {
+    background-color: var(--gris-claro);
+    border: 2px dashed var(--rosado-intenso);
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+    color: var(--negro);
+    font-style: italic;
+    font-size: 1rem;
+}
+
+/* Footer */
+footer {
+    background: var(--rosado-intenso);
+    color: var(--blanco);
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 1rem;
+}
